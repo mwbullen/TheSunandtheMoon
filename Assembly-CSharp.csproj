@@ -640,6 +640,7 @@
      <Compile Include="Assets\PlayMaker\Actions\iTween\iTweenShakeScale.cs" />
      <Compile Include="Assets\PlayMaker\Actions\iTween\iTweenStop.cs" />
      <Compile Include="Assets\PlayMaker\Include\iTweenFSMEvents.cs" />
+     <Compile Include="Assets\Utilities.cs" />
      <Compile Include="Assets\iTween\iTween.cs" />
      <None Include="Assets\PlayMaker\Readme.txt" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
