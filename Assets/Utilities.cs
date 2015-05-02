@@ -21,4 +21,13 @@ public class Utilities : MonoBehaviour {
 	public Vector2 multiplyVector2(Vector2 inputVector, float speed) {
 		return inputVector * speed;
 	}
+
+	public Vector3 getRandomPointInObject(GameObject g) {
+		Renderer r =  g.GetComponent<Renderer>();
+		float x = Random.Range (r.bounds.min.x, r.bounds.max.x);
+		float y = Random.Range (r.bounds.min.y, r.bounds.max.y);
+
+		return new Vector3(x, y,0);
+	}
+
 }
