@@ -642,9 +642,13 @@
      <Compile Include="Assets\PlayMaker\Include\iTweenFSMEvents.cs" />
      <Compile Include="Assets\Utilities.cs" />
      <Compile Include="Assets\iTween\iTween.cs" />
+     <None Include="Assets\Plugins\Android\unityads\proguard-project.txt" />
      <None Include="Assets\PlayMaker\Readme.txt" />
+     <None Include="Assets\Plugins\Android\unityads\build.xml" />
+     <None Include="Assets\Plugins\Android\unityads\res\values\strings.xml" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
+     <None Include="Assets\Plugins\Android\unityads\AndroidManifest.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
