@@ -10,11 +10,18 @@ public class AdsWrapper : MonoBehaviour {
 
 		adShowOptions = new ShowOptions ();
 		adShowOptions.pause = true;
+		adShowOptions.resultCallback = result => {
+			AdComplete ();};
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
+	}
+
+	void AdComplete() {
+		Time.timeScale = 1f;
+		Time.fixedDeltaTime = .02f;
 	}
 
 	public void PlayAd() {
