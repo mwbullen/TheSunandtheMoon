@@ -652,6 +652,7 @@
      <None Include="Assets\Forgotten Dawn Assets\Meditative Ambient Loops\readme.txt" />
      <None Include="Assets\Attributions.txt" />
      <None Include="Assets\Plugins\Android\unityads\res\values\strings.xml" />
+     <None Include="Assets\RainbowArt\readme.txt" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
      <None Include="Assets\Plugins\Android\unityads\AndroidManifest.xml" />
